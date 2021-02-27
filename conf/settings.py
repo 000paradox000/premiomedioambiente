@@ -39,8 +39,20 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'applications.common',
+    'applications.contact',
     'applications.users',
     'applications.home',
+    'applications.reports',
+    'applications.committee_assessment',
+    'applications.committee',
+    'applications.jury_assessment',
+    'applications.postulation_filter',
+    'applications.postulation',
+    'applications.information',
+    'applications.jury',
+    'applications.panel',
+    'applications.parameters',
+    'applications.visits',
 ]
 
 MIDDLEWARE = [

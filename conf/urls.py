@@ -27,6 +27,12 @@ urlpatterns = [
 
     # home
     path('', Home.as_view(), name='home'),
+
+    # contact
+    path('/contact', Home.as_view(), name='contact'),
+
+    # home
+    path('', Home.as_view(), name='home'),
 ]
 
 # media
