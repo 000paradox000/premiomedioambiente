@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] PMA21-0001 Make homepage for each application
+- [x] PMA21-0001 Make homepage for each application
 - [ ] PMA21-0002 Templates
 - [ ] PMA21-0003 Multi Tenancy Discussion
 - [ ] PMA21-0004 Forms POC
