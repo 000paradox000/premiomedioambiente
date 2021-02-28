@@ -1,0 +1,28 @@
+.nav-bar-right {
+    display: inline-block;
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar-icon-no-decoration {
+    list-style-type: none;
+    display: inline-block;
+    justify-self: center;
+    padding: 0rem 0.3rem;
+}
+
+.nav-bar-btn {
+    position: static;
+}
+
+.nav-bar-social {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    margin: 1px;
+    padding: 0rem;
+
+}
