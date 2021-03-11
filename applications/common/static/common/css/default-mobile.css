@@ -10,3 +10,13 @@
     justify-self: center;
 
 }
+.row-footer2{
+    display: inline-block;
+    margin: auto 0rem;
+    padding: 0 1rem;
+    text-align: justify;
+}
+.flex-image{
+    margin-left: 5%;
+}
+

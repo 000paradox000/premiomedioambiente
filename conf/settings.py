@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     'applications.panel',
     'applications.parameters',
     'applications.visits',
+
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -130,6 +132,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static_root'
+
+# Crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
