@@ -1,5 +1,11 @@
 {% extends "common/base.html" %}
+{% load crispy_forms_tags %}
 
 {% block content %}
-    <h1>Contact us</h1>
+<h1 class="home-title">Contáctenos</h1>
+<form>
+    {% load crispy_forms_tags %}
+    {% crispy form form.helper %}
+
+</form>
 {% endblock content %}
